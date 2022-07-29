@@ -1,0 +1,124 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+nav > div > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav > div > ul > li:first-of-type {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.list-item {
+    margin-right: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Orbitron;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > div > img {
+    width: 100px;
+}
+
+.search-icon {
+    padding-right: 10px;
+}
+
+.nav-button {
+    background: transparent;
+    border: 2px solid #000;
+    padding: 10px 50px;
+    border-radius: 16px;
+    font-family: Poppins;
+}
+
+.square {
+    position: absolute;
+    margin-left: 160px;
+    bottom: 0;
+}
+
+.hero-container > div > img{ 
+    position: relative; 
+    height: 600px;
+}
+
+.star {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.globe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero-container-right {
+   text-align: center;
+}
+
+.hero-heading {
+   font-size: 50px;
+   font-family: Orbitron;
+}
+
+.hero-description {
+    font-family: Poppins;
+    font-size: 12px;
+    margin: 0 200px;
+}
+
+.button-email, .button-join {
+    margin-top: 50px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-family: Orbitron;
+    font-size: 16px;
+}
+
+.button-email {
+    padding: 2px 30px;
+    background-color: transparent;
+    color: #4d4d4d;
+}
+
+.button-join {
+    background-color: #000;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.contact-heading {
+    margin-top: 80px;
+    font-family: Poppins;
+    text-transform: capitalize;
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 300;
+}
+.icons > span {
+   margin-left: 10px;
+}
+
